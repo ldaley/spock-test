@@ -1,7 +1,7 @@
 import spock.lang.*
 import grails.plugin.spock.*
 
-class InSetupSpecAndCleanupSpecSpec extends Specification {
+class InSetupSpecAndCleanupSpecNoFeaturesSpec extends Specification {
 
 	def setupSpec() {
 		throw new Exception()
